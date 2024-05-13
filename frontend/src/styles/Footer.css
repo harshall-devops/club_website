@@ -1,0 +1,390 @@
+.outerFooterContainer{
+  display: block;
+  width:100%;
+  color:indigo;
+}
+.innerFooterContainers{
+  padding:20px 100px;
+  width:100%;
+  display: flex;
+}
+.footerContentBlockDiv{
+  width:50%;
+}
+.footerContentDiv{
+  width:100%;
+}
+#footerContentBlockDivId{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.writtentContentHoldingOuterDiv{
+  padding: 10px 10px;
+  text-align: left;
+}
+.footerdiv{
+  display:flex;
+  justify-content:space-evenly;
+  width:30%;
+}
+#footerContentDivID1{
+  margin-right: 15px;
+}
+#footerContentDivID2{
+  display: flex;
+  margin-left: 15px;
+justify-content: space-evenly;
+}
+
+.footerdiv img{
+  width:25px;
+  height:25px;
+  color:rgb(2, 18, 82);
+}
+.footerInnerContentDivs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding:0px 20px;
+  height:200px;
+  box-shadow: 15px 15px grey;
+  border-radius:10px ;
+  border: 1px solid grey;
+  margin: 0px 10px;
+  background-color: black;
+}
+.footerparaHold{
+width:70%;
+}
+.contactUsPara, .visitCollegeLink{
+  color:white;
+  text-decoration: none;
+}
+
+@media screen and (min-width:840px) and (max-width:1070px){
+
+  .innerFooterContainers{
+    padding:20px 50px;
+    width:100%;
+    display: flex;
+  }
+
+  .footerInnerContentDivs{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding:0px 20px;
+    height:200px;
+    box-shadow: 15px 15px grey;
+    border-radius:10px ;
+    border: 1px solid grey;
+    background-color: black;
+  }
+  .contactUsPara, .visitCollegeLink{
+    color:white;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width:400px) and (max-width:840px){
+  .footerContentBlockDiv {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+  .innerFooterContainers{
+    padding:20px 50px;
+    width:100%;
+    display: block;
+  }
+
+  .footerInnerContentDivs{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+     /* width: calc(100% - 20px); */
+    padding:0px 20px;
+    height:200px;
+    box-shadow: 15px 15px grey;
+    border-radius:10px ;
+    border: 1px solid grey;
+    background-color: black;
+  }
+  .footerContentBlockDiv{
+    width:100%;
+  }
+  .footerparaHold {
+    width: 100%;
+}
+.writtentContentHoldingOuterDiv {
+  padding: 10px 10px;
+  text-align: center;
+}
+.footerdiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footerdiv img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+  color: rgb(2, 18, 82);
+}
+.contactUsPara, .visitCollegeLink{
+  color:white;
+  text-decoration: none;
+}
+}
+
+@media screen and (min-width:350px) and (max-width:400px){
+  .outerFooterContainer{
+    display: block;
+    background-color: white;
+    width:115%;
+    color:indigo;
+  }
+  .footerContentBlockDiv {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+  .innerFooterContainers{
+    padding:20px 50px;
+    width:100%;
+    display: block;
+  }
+
+  .footerInnerContentDivs{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding:0px 20px;
+    height:200px;
+    box-shadow: 15px 15px grey;
+    border-radius:10px ;
+    border: 1px solid grey;
+    background-color: black;
+  }
+  .footerContentBlockDiv{
+    width:100%;
+  }
+  .footerparaHold {
+    width: 100%;
+}
+.writtentContentHoldingOuterDiv {
+  padding: 10px 10px;
+  text-align: center;
+}
+.footerdiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footerdiv img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+  color: rgb(2, 18, 82);
+}
+.contactUsPara, .visitCollegeLink{
+  color:white;
+  text-decoration: none;
+}
+}
+
+@media screen and (min-width:330px) and (max-width:350px){
+  .outerFooterContainer{
+    display: block;
+    background-color: white;
+    width:125%;
+    color:indigo;
+  }
+  .contactUsPara, .visitCollegeLink{
+    color:white;
+    text-decoration: none;
+  }
+  #footerContentBlockDivId {
+    display: block;
+    
+}
+  .footerContentBlockDiv {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+  .innerFooterContainers{
+    padding:20px 50px;
+    width:100%;
+    display: block;
+  }
+
+  .footerInnerContentDivs{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 20px);
+    padding:0px 20px;
+    height:200px;
+    box-shadow: 15px 15px grey;
+    border-radius:10px ;
+    border: 1px solid grey;
+    background-color: black;
+  }
+  .footerContentBlockDiv{
+    width:100%;
+  }
+  .footerparaHold {
+    width: 100%;
+}
+.writtentContentHoldingOuterDiv {
+  padding: 10px 10px;
+  text-align: center;
+}
+.footerdiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footerdiv img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+  color: rgb(2, 18, 82);
+}
+}
+
+@media screen and (min-width:290px) and (max-width:330px){
+  .outerFooterContainer{
+    display: block;
+    background-color: white;
+    width:140%;
+    color:indigo;
+  }
+  .contactUsPara, .visitCollegeLink{
+    color:white;
+    text-decoration: none;
+  }
+  #footerContentDivID2 {
+    display: block;
+    margin-left: 0px;
+    justify-content: space-evenly;
+}
+  .footerContentBlockDiv {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+  .innerFooterContainers{
+    padding:20px 50px;
+    width:100%;
+    display: block;
+  }
+  .footerInnerContentDivs{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:0px 20px;
+    height:200px;
+    box-shadow: 15px 15px grey;
+    border-radius:10px ;
+    border: 1px solid grey;
+    background-color: black;
+  }
+  .footerContentBlockDiv{
+    width:100%;
+  }
+  .footerparaHold {
+    width: 100%;
+}
+.writtentContentHoldingOuterDiv {
+  padding: 10px 10px;
+  text-align: center;
+}
+.footerdiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footerdiv img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+  color: rgb(2, 18, 82);
+}
+}
+
+@media screen and (min-width:0px) and (max-width:330px){
+  .outerFooterContainer{
+    display: block;
+    background-color: white;
+    width:140%;
+    color:indigo;
+  }
+  #footerContentDivID2 {
+    display: block;
+    margin-left: 0px;
+    justify-content: space-evenly;
+}
+  .footerContentBlockDiv {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.contactUsPara, .visitCollegeLink{
+  color:white;
+  text-decoration: none;
+}
+  .innerFooterContainers{
+    padding:20px 50px;
+    width:100%;
+    display: block;
+  }
+  .footerInnerContentDivs{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding:0px 20px;
+    height:200px;
+    box-shadow: 15px 15px grey;
+    border-radius:10px ;
+    border: 1px solid grey;
+    background-color: black;
+  }
+  .footerContentBlockDiv{
+    width:100%;
+  }
+  .footerparaHold {
+    width: 100%;
+}
+.writtentContentHoldingOuterDiv {
+  padding: 10px 10px;
+  text-align: center;
+}
+.footerdiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footerdiv img {
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px;
+  color: rgb(2, 18, 82);
+}
+}

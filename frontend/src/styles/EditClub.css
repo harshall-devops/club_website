@@ -1,0 +1,1012 @@
+.editClubMainOuterDiv{
+    background-color:cornflowerblue ;
+    padding-top: 50px;
+}
+.editClubMainContentHoldingOuterDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.editClubMainContentHoldingDiv{
+    display: block;
+    width:100%;  
+}
+
+.editClubMainHeading h1{
+    color:indigo;
+}
+.back_img1{
+    margin-bottom: 20px;
+    width:50%;
+    height:400px;
+}
+.editConfirmbutton{
+    background-color: rgb(13, 142, 248);
+    color:white;
+    box-shadow:1px 1px blue;
+    font-weight: bold;
+    width:10%;
+    height:40px;
+    border-radius:40px;
+    margin: 20px 0px;
+}
+.editConfirmbutton:hover{
+    background-color: green;
+    font-size: larger;
+    box-shadow: 2px 2px indigo;
+}
+.editingButtonHolderMainOuterDiv{
+    display: flex;
+    justify-content: space-evenly;
+    padding:20px;
+}
+.editButtonContentHoldingOuterDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.editButtonContentHoldingDiv{
+    width:80%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+    background-color:rgb(128, 27, 199);
+    margin: 10px;
+}
+.editButtonContentHoldingDiv button{
+    width:100%;
+    background-color: white;
+    color:indigo;
+    box-shadow:5px 5px  black;
+    height:100px;
+    font-size: larger;   
+}
+.editableContentDiv textarea{
+    display: block;
+    margin:20px 0px;
+    width:100%;
+    align-self: center;
+}
+.editButtonContentHoldingDiv button:hover{
+    background-color: green;
+   color: white;
+   font-weight: bold;
+    
+}
+.editableContentDiv{
+    display: none;
+}
+.editClubDropDwonHoldingDiv{
+    margin: 20px 0px;
+    width:100%;
+}
+.editClubDropDwonHoldingDiv select{
+    width:50%;
+    border-radius: 10px;
+    height:50px;
+    text-align: center;
+    font-size: x-large;
+    color:indigo;
+    font-weight: bold;
+}
+#dateElement{
+    width:100%;
+    margin-top: 20px;
+    text-align: center;
+    height:40px;
+}
+#achievementUpdationTableDiv,#eventUpdationTableDiv,#clubImageUpdationTableDiv{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+#memberUpdationTableDiv{
+    margin-left: -170px;
+}
+
+.editingButtonHolderMainOuterDiv{
+    width:110%;
+}
+#editingButtonHolderMainOuterDivId1, #editingEventButtonHolderMainOuterDivId1{
+    width: min-content;
+}
+/* #memberButtonHolderMainOuterDivId1{
+    width:100%;
+} */
+.addAchievementButton , .addEventButton, .addMemberButton{
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+    font-size: large;
+    padding:5px 55px;
+    /* border-radius: 10px; */
+    margin: 20px 0px;
+}
+/* .addMemberButtonHoldingDiv{
+    width:110%;
+} */
+.addAchievementTable, .addEventTable{
+    margin-bottom:20px ;
+}
+.addMemberTable{
+    margin: 0px 0px 20px 0px;
+}
+.addAchievememntTitleTableColumn,
+ .addAchievememntDescriptionTableColumn,
+ .add_achievement_button {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 18px;
+}
+.editAchievementButton, .editEventButton, .editMemberButton,.ClubImageDeleteImageButtons,.UpdateClubImageButtons{
+    font-weight: bold;
+    color:white;
+    border-radius: 10px;
+    padding:15px;
+}
+.TableImages{
+    margin: 5px 0px;
+    width:400px;
+    height:170px;
+}
+.achievementUpdateInnerImageButtons, .achievementDeleteInnerImageButtons{
+    margin: 5px 2px;
+}
+#add_achievement_image_button{
+    background-color: rgb(101, 7, 189);
+    width:100%;
+    color: white;
+        }
+#add_achievement_image_button:hover{
+    background-color: blueviolet;
+    }
+#addAchievementButton, #addEventButton, #addMemberButton{
+    background-color: rgb(16, 109, 238);
+    color: white;
+}
+#deleteAchievementButton, #deleteEventButton, #deleteMemberButton,.achievementDeleteInnerImageButtons,.ClubImageDeleteImageButtons{
+    background-color: rgb(207, 16, 16) ; 
+    color: white; 
+}
+.achievementDeleteInnerImageButtons,.achievementUpdateInnerImageButtons{
+width:90%;
+}
+#add_achievement_image_button,#achievementImageInput{
+width:100%;
+}
+#updateAchievementButton, #updateEventButton, #updateMemberButton,.achievementUpdateInnerImageButtons,.UpdateClubImageButtons{
+    background-color: green;  
+    color: white; 
+}
+
+#addAchievementButton:hover, #addEventButton:hover, #addMemberButton:hover{
+    background-color: rgb(46, 151, 249);
+}
+#deleteAchievementButton:hover, #deleteEventButton:hover, #deleteMemberButton:hover,.achievementDeleteInnerImageButtons:hover,.ClubImageDeleteImageButtons:hover{
+    background-color: red 
+}
+#updateAchievementButton:hover,#updateEventButton:hover, #updateMemberButton:hover,.achievementUpdateInnerImageButtons:hover,.UpdateClubImageButtons:hover {
+    background-color: rgb(10, 181, 10);   
+}
+#achievementUpdationTableDiv .editingButtonHolderMainOuterDiv table,
+#eventUpdationTableDiv .editingButtonHolderMainOuterDiv table,
+#memberUpdationTableDiv .editingButtonHolderMainOuterDiv table,
+#clubImageUpdationTableDiv .editingButtonHolderMainOuterDiv table
+
+{
+    width:100%;
+}
+#achievementTitleTextarea,#eventTitleTextarea{
+    width:100%;
+}
+#achievementDescriptionTextarea, #eventDescriptionTextarea,.add_description, .add_title{
+    width:100%;
+}
+.achievementTitleTextarea,.eventTitleTextarea{
+    width: 300px;
+}
+.achievementDescriptionTextarea, .eventDescriptionTextarea{
+    width:350px;
+}
+
+.achievementHoldingImageDiv{
+    padding: 5px;
+    border: 2px solid black;
+    background-color: white;;
+    margin: 20px 0px;
+}
+
+.third-column,
+.fourth-column,
+.add_achievement_button,
+.add_event_button 
+{
+    width: 9%;
+}
+.first-column{
+    width:30%;
+    
+}
+.ClubImageUplaodClass{
+    padding: 5px 10px;
+    color: white;
+    background-color: green;
+}
+.first-column,
+.second-column,
+.fourth-column,
+.third-column,
+.fifth-column,
+.InnerColumnClass,
+.addEventTitleTableColumn,
+.addEventDescTableColumn,
+.add_event_button
+{
+    border: 1px solid #dddddd;
+    padding: 18px;
+}
+.addMemberTableColumn,
+.add_member_button,
+.member_image_upload_column,
+.InnerColumnClass1,
+.imageTableHeading{
+    border: 1px solid #dddddd;
+    padding: 10px;
+}
+.first-column,
+.second-column,
+.fourth-column,
+.third-column,
+.fifth-column,
+.addEventTitleTableColumn,
+.addEventDescTableColumn,
+.add_event_button,
+.addMemberTableColumn,
+.add_member_button,
+.member_image_upload_column
+{
+    background-color: #f2f2f2;
+}
+.second-column{
+    width:60%;
+}
+#second-columnImage{
+width: 10%;
+}
+#third-columnImage{
+    width:15%;
+}
+.addAchievememntTitleTableColumn,.addEventTitleTableColumn {
+    width:30%;
+}
+
+.ButtonOuterDiv{
+    display: block;
+    width:100%;
+    margin-bottom: 20px;
+}
+.Buttons_Div {
+    gap: 20px;
+    width: 100%;
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+}
+.Buttons_Div button{
+    width:100%;
+    border-radius: 60px;
+    border: none;
+    padding:10px;
+    color:white;
+    font-size: larger;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.editButtonsDiv{
+    background-color:floralwhite;
+    box-shadow: 1px 1px rgb(0, 0, 0);
+    border-radius: 60px;
+    padding:5px;
+}
+
+.editButtonclass{
+    background: linear-gradient(to bottom right,rgb(239, 27, 179), purple);
+}
+.editButtonclass:hover{
+    background: linear-gradient(to right,rgb(5, 96, 207), rgb(103, 226, 245));
+    /* background: linear-gradient(to left,green, greenyellow); */
+}
+.editClubMainHoldingInnerDiv {
+    padding: 0px 10px;
+    width: 100%;
+}
+.displayEditingContentOuterDiv{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 50px;
+}
+.displayEditingContentInnerDiv{
+    width:80%;
+}
+.editableContentDiv{
+    width:100%;
+}
+#editintro{
+    align-self: center;
+    width:90%;
+}
+.editableContentDiv textarea {
+    margin: 0 auto; /* This will center-align the textarea */
+    width: 90%; /* Adjust the width as needed */
+}
+.editableContentDiv h2{
+    color:white;
+    margin-bottom: 30px;
+    }
+#dateElement{
+    width:70%;
+}
+.confirmEditButton{
+    background-color: green;
+    margin: 10px 0px;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.add_description{
+    width:100%;
+}
+.search_option{
+    margin: 30px 0px;
+    /* width:110%; */
+}
+.searchBarInput{
+    height:50px;
+    width:50%;
+    border-radius: 50px;
+    text-align: center;   
+}
+.searchbuttons{
+    margin: 0px 5px;
+    height:50px;
+    width:10%;
+    border-radius: 50px;
+    font-weight: bold;
+}
+#searchInputButton{
+background-color: rgb(36, 166, 36);
+color:white;
+}
+#searchInputButton:hover{
+    background-color: green
+}
+#searchClearButton{
+    background-color: azure;
+}
+#searchClearButton:hover{
+    background-color: rgb(182, 250, 250);
+}
+#memberprn, #memberclass, #memberbranch,#membermobile,#memberposition{
+    width:150px;
+}
+.add_title{
+    width:200px;
+}
+.memberTitleTextarea{
+    width:200px;
+}
+.memberDescriptionTextarea,
+.memberClassInput,
+.memberPrnInput,
+.memberBranchInput,
+.memberMobileInput,
+.editedClassChoice
+{
+width:130px;
+}
+.memberImageInput{
+width:180px;
+}
+#deleteMemberButton,
+#updateMemberButton
+{
+    width:min-content;
+    text-align: center;
+    font-size: medium;
+    padding:7px;
+}
+.updateMemberImage{
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+}
+.logoImage{
+    width:300px;
+    height:300px;
+    margin-bottom: 40px;
+}
+.memberImage{
+    width:100px;
+    height:100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.updateMemberImage{
+    width:100%;
+}
+#logoOuterDivID input{
+    padding: 0% 0% 1% 10%
+}
+#logoOuterDivID button{
+    color:white;
+    background-color: green;
+    width:30%;
+    font-size: large;
+    font-weight: bold;
+}
+#logoOuterDivID button:hover{
+    background-color: rgb(4, 160, 4);
+}
+
+/* Update Images Section */
+.addClubImageButton{
+    background-color: blueviolet;
+    padding:5px 10px;
+    margin-bottom:20px ;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    width:100%;
+}
+.clubImages{
+    width:700px;
+    height:300px;
+}
+.clubImageUpdateForm{
+    display: block;
+}
+.ClubImageUpdateDiv,.addImageAchievementDiv,.addImageEventDiv{
+    display: flex;
+    justify-content: center;
+}
+.UpdateClubImageInput{
+    width:90%;
+}
+.ClubImageDeleteImageButtons{
+    width:max-content;
+}
+.changePasswordLinkDiv{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 20px 20px;
+}
+.changePasswordLink{
+    color: white;
+    text-decoration: none;
+    padding: 2px 5px;
+    background-color: green;
+}
+
+.intialFormInnerDiv{
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    border: 2px solid rgba(0, 0, 0, 0.5);;
+    padding: 70px 0px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    animation: popup 0.5s;
+}
+@keyframes popup{
+    from{
+    left :0%;
+    }
+    to{
+        left:25%;
+    }
+}
+.initialFormDiv{
+    margin: 30px 0px;
+}
+.initialFormLabels{
+    font-size: larger;
+    color: indigo;
+    /* font-weight: bold; */
+}
+.intialFormInnerDiv h2{
+    color:indigo;
+}
+.initialFormInputs{
+    width:60%;
+    height:40px;
+    text-align: center;
+}
+.initialFormButton{
+    color:white;
+    background-color: green;
+    padding: 5px 10px;
+    width:30%;
+}
+
+@media screen and (min-width:1100px) and (max-width:1500px){
+    .editClubMainOuterDiv {
+        width: 140%;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 280px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 280px;
+    }
+    .editAchievementButton, .editEventButton, .editMemberButton,.ClubImageDeleteImageButtons,.UpdateClubImageButtons{
+        padding:10px;
+    }
+    .TableImages {
+        margin: 5px 0px;
+        width: 350px;
+        height: 170px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+        margin-left:70px ;
+    }
+}
+
+@media screen and (min-width:830px) and (max-width:1100px){
+    .editClubMainOuterDiv {
+        width: 180%;
+        padding-top: 50px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+        /* margin-left: 70px; */
+    }
+    .InnerColumnClass{
+        /* background-color: #add; */
+        border:1px solid grey ;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 220px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 220px;
+    }
+    td .fifth-column{
+        width:100px   !important    ;
+    }
+    th.fifth-column {
+        width: 100px; /* Adjust the width as needed */
+    }
+    #memberUpdationTableDiv .editingButtonHolderMainOuterDiv table{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width:670px) and (max-width:830px){
+    .editClubMainOuterDiv {
+        width: 230%;
+        padding-top: 50px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+    }
+    .InnerColumnClass{
+        /* background-color: #add; */
+        border:1px solid grey ;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 240px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 240px;
+    }
+    td .fifth-column{
+        width:100px   !important    ;
+    }
+    th.fifth-column {
+        width: 100px; /* Adjust the width as needed */
+    }
+    .TableImages {
+        width: 450px;
+        height: 180px;
+    }
+    #memberUpdationTableDiv .editingButtonHolderMainOuterDiv table{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:670px){
+    .editClubMainOuterDiv {
+        width: 380%;
+        padding-top: 50px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+    }
+    .InnerColumnClass{
+        border:1px solid grey ;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 300px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 300px;
+    }
+    td .fifth-column{
+        width:100px   !important    ;
+    }
+    th.fifth-column {
+        width: 100px; 
+    }
+    .TableImages {
+        width: 500px;
+        height: 230px;
+    }
+    #memberUpdationTableDiv .editingButtonHolderMainOuterDiv table{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width:300px) and (max-width:400px){
+    .editClubMainOuterDiv {
+        width: 500%;
+        padding-top: 50px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+    }
+    .InnerColumnClass{
+        border:1px solid grey ;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 300px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 300px;
+    }
+    td .fifth-column{
+        width:100px   !important    ;
+    }
+    th.fifth-column {
+        width: 100px; 
+    }
+    .TableImages {
+        width: 500px;
+        height: 230px;
+    }
+    #memberUpdationTableDiv .editingButtonHolderMainOuterDiv table{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:300px){
+    .editClubMainOuterDiv {
+        width: 730%;
+        padding-top: 50px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+    }
+    .InnerColumnClass{
+        border:1px solid grey ;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 300px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 300px;
+    }
+    td .fifth-column{
+        width:100px   !important    ;
+    }
+    th.fifth-column {
+        width: 100px; 
+    }
+    .TableImages {
+        width: 350px;
+        height: 170px;
+    }
+    #memberUpdationTableDiv .editingButtonHolderMainOuterDiv table{
+        margin-left: 70px;
+    }
+}
+@media screen and (min-width:100px) and (max-width:200px){
+    .editClubMainOuterDiv {
+        width: 1450%;
+        padding-top: 50px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+    }
+    .InnerColumnClass{
+        border:1px solid grey ;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 300px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 300px;
+    }
+    td .fifth-column{
+        width:100px   !important    ;
+    }
+    th.fifth-column {
+        width: 100px; 
+    }
+    .TableImages {
+        width: 350px;
+        height: 170px;
+    }
+    #memberUpdationTableDiv .editingButtonHolderMainOuterDiv table{
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:100px){
+    .editClubMainOuterDiv {
+        width: 1700%;
+        padding-top: 50px;
+    }
+    .editingButtonHolderMainOuterDiv{
+        width:100%;
+    }
+    .InnerColumnClass{
+        border:1px solid grey ;
+    }
+    .Buttons_Div{
+        margin: 20px 0px;
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .editClubMainHoldingInnerDiv {
+        padding: 0px 10px;
+        width: 80%;
+    }
+    .Buttons_Div button {
+        width: 100%;
+        border-radius: 60px;
+        border: none;
+        padding: 10px;
+        color: white;
+        font-size: larger;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+    .displayEditingContentInnerDiv {
+        width: 100%;
+    }
+    .achievementTitleTextarea, .eventTitleTextarea {
+        width: 300px;
+    }
+    .achievementDescriptionTextarea, .eventDescriptionTextarea {
+        width: 300px;
+    }
+    td .fifth-column{
+        width:100px   !important    ;
+    }
+    th.fifth-column {
+        width: 100px; 
+    }
+    .TableImages {
+        width: 350px;
+        height: 170px;
+    }
+    #memberUpdationTableDiv .editingButtonHolderMainOuterDiv table{
+        margin-left: 70px;
+    }
+    .editClubMainOuterDiv{
+        background-color:white ;
+    }
+    .first-column,
+.second-column,
+.fourth-column,
+.third-column,
+.fifth-column,
+.addEventTitleTableColumn,
+.addEventDescTableColumn,
+.add_event_button,
+.addMemberTableColumn,
+.add_member_button,
+.member_image_upload_column
+{
+    background-color: indigo;
+    color:white;
+}
+.InnerColumnClass,
+.addEventTitleTableColumn,
+.addEventDescTableColumn,
+.add_event_button
+{
+   background-color: azure;
+}
+
+.member_image_upload_column,
+.InnerColumnClass1,
+.imageTableHeading{
+    background-color: azure;
+}
+}
+

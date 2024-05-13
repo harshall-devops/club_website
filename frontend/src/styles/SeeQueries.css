@@ -1,0 +1,79 @@
+.OuterQueriesHoldingDiv{
+    text-align: left;
+    color: rgb(6, 8, 140);
+    padding: 0px 30px;
+}
+
+.queryHeadingDiv{
+    margin-bottom:50px ;
+}
+.queryHeadingDivH1Tag{
+    text-decoration:underline;
+    color:green;
+}
+#allUnsolvedQueriesId{
+    background-color: rgb(195, 2, 2);
+    color:white;
+}
+#allSolvedQueriesId{
+    background-color: green;
+    margin-bottom: 10px;
+    color:white;
+}
+#allQueriesId{
+    background-color: rgb(20, 91, 243);
+    margin-bottom: 10px;
+    color:white;
+}
+#markSolvedId{
+    background-color:aquamarine;
+    color:indigo;
+    font-weight: bold;
+}
+#allUnsolvedQueriesId:hover,
+#allSolvedQueriesId:hover,
+#allQueriesId:hover,
+#markSolvedId:hover{
+    background-color:indigo;
+    color:white;
+}
+@media screen and (min-width:350px) and (max-width:400px){
+    .OuterQueriesHoldingDiv{
+        background-color: white;
+        width:115%;
+    }
+    
+    
+}
+@media screen and (min-width:330px) and (max-width:350px){
+    .OuterQueriesHoldingDiv{
+        background-color: white;
+        width:125%;
+    }
+    
+}
+@media screen and (min-width:290px) and (max-width:330px){
+    .OuterQueriesHoldingDiv{
+        background-color: white;
+        width:140%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:290px){
+    .OuterQueriesHoldingDiv{
+        background-color: white;
+        width:140%;
+    }
+}
+@media screen and (min-width:100px) and (max-width:200px){
+    .OuterQueriesHoldingDiv{
+        background-color: white;
+        width:140%;
+    }
+}
+@media screen and (min-width:0px) and (max-width:100px){
+    .OuterQueriesHoldingDiv{
+        background-color: white;
+        width:140%;
+    }
+}
+

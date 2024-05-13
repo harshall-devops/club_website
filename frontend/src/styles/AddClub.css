@@ -1,0 +1,194 @@
+.addClubOuterDiv{
+    display: flex;
+}
+.addClubInnerMainDivs{
+    width:50%; 
+}
+
+.addClubLeftInnerDiv img{
+    width:85px;
+    height:85px;
+    border-radius: 50%;
+}
+
+#addClubInnerMainDivs_idright img{
+    width:-webkit-fill-available;
+    height:-webkit-fill-available;
+}
+
+#addClubInnerMainDivs_idright{
+    width:60%;
+}
+
+#addClubInnerMainDivs_idleft{
+    color:indigo;
+    background-color: bisque;
+    width:40%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addClubLeftInnerFormDiv{
+    display: flex;
+    justify-content: center;
+}
+.addClubLeftInnerFormDiv form{
+    width:100%;
+    padding:5px;
+}
+.addClubinputs label{
+    color:indigo;
+    font-size: larger;
+}
+.addClubinputs input{
+    width:100%;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    height:40px;
+    margin: 5px 0px;
+    box-shadow: 2px 2px grey;
+    border:1px solid grey;
+}
+#establishment{
+    padding:0px 30px;
+    text-align: center;
+}
+.addClubinputs button{
+    background-color: green;
+    color:white;
+    border-radius: 10px;
+    width:40%;
+    height:35px;
+    margin: 20px 0px;
+}
+.addClubinputs button:hover{
+    background-color: rgb(35, 121, 240);
+    color:white;
+    border-radius: 10px;
+    width:40%;
+    height:35px;
+}
+
+@media screen and (min-width:650px) and (max-width:900px){
+    #addClubInnerMainDivs_idleft{
+        color:indigo;
+        background-color: bisque;
+        width:50%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #addClubInnerMainDivs_idleft {
+        color: indigo;
+        background-color: bisque;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #addClubInnerMainDivs_idright {
+        width:50%;
+    }
+    
+ }
+
+ @media screen and (min-width:400px) and (max-width:650px){
+    .addClubOuterDiv{
+        display: block;
+    }
+    #addClubInnerMainDivs_idleft {
+        color: indigo;
+        background-color: bisque;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #addClubInnerMainDivs_idright {
+        display: none;
+    }
+    
+ }
+
+ @media screen and (min-width:350px) and (max-width:400px){
+    .addClubOuterDiv{
+        display: block;
+        width:115%;
+    }
+    #addClubInnerMainDivs_idleft {
+        color: indigo;
+        background-color: bisque;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #addClubInnerMainDivs_idright {
+        display: none;
+    }
+ }
+
+ @media screen and (min-width:330px) and (max-width:350px){
+    .addClubOuterDiv{
+        display: block;
+        width:125%;
+    }
+    #addClubInnerMainDivs_idleft {
+        color: indigo;
+        background-color: bisque;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #addClubInnerMainDivs_idright {
+        display: none;
+    }
+ }
+
+ @media screen and (min-width:290px) and (max-width:330px){
+    .addClubOuterDiv{
+        display: block;
+        width:140%;
+        margin-left: 5px;
+    }
+    #addClubInnerMainDivs_idleft {
+        color: indigo;
+        background-color: bisque;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #addClubInnerMainDivs_idright {
+        display: none;
+    }
+ }
+
+ @media screen and (min-width:0px) and (max-width:290px){
+    .addClubOuterDiv{
+        display: block;
+        width:140%;
+        margin-left: 15px;
+    }
+    #addClubInnerMainDivs_idleft {
+        color: indigo;
+        background-color: bisque;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #addClubInnerMainDivs_idright {
+        width:100%;
+    }
+ }

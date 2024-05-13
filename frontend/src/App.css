@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+.App{
+  min-height: 100vh;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color:azure;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* Custom CSS to position toast messages at the upper center */
+.Toastify__toast-container {
+  top: 1 rem; 
+  right: auto;
+  margin-top: 80px;
+  bottom: auto;
+  left: 37%;
+  transform: translateX(-50%);
+}
+
+.Toastify__toast--success,
+.Toastify__toast--error,
+.Toastify__toast--info,
+.Toastify__toast--warning {
+  width: 400px;
+  margin: 0 auto; /* Center the toast horizontally */
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media  screen and (min-width:900px) and (max-width:1200px) {
+  .Toastify__toast-container {
+    top:10%;
+    left: 30%; 
+  }
+}
+@media  screen and (min-width:700px) and (max-width:900px) {
+  .Toastify__toast-container {
+    margin-top:20%;
+    left: 25%; 
+  }
+}
+@media  screen and (min-width:570px) and (max-width:700px) {
+  .Toastify__toast-container {
+    margin-top:40%;
+    left: 20%; 
+  }
+}
+@media  screen and (min-width:481px) and (max-width:570px) {
+  .Toastify__toast-container {
+    top: 1 rem; 
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+  margin-top:50%;
+  left: 20%; 
+  }
+}
+@media  screen and (min-width:401px) and (max-width:480px) {
+  .Toastify__toast-container--top-right{
+    top:30% !important;
+  }
+  .Toastify__toast-container { 
+  right: auto;
+  bottom: auto;
+  transform: translateX(-50%);
+  margin-top:50%;
+  left: 20%; 
+  }
+}
+@media  screen and (min-width:300px) and (max-width:400px) {
+  .App{
+      background-color:white;
+  }
+  .Toastify__toast-container--top-right{
+    top:30% !important;
+  }
+  .Toastify__toast-container { 
+    right: auto;
+    bottom: auto;
+    transform: translateX(-50%);
+    margin-top:50%;
+    left: 20%; 
+    }
+}
+@media  screen and (min-width:0px) and (max-width:300px) {
+  .App{
+      background-color:white;
+  }
+  .Toastify__toast-container--top-right{
+    top:30% !important;
+  }
+  .Toastify__toast-container { 
+    right: auto;
+    bottom: auto;
+    transform: translateX(-50%);
+    margin-top:50%;
+    left: 20%; 
+    }
+}

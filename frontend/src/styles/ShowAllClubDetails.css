@@ -1,0 +1,411 @@
+.card.mb-3{
+    background-color: #fff3cd;
+    color: rgb(2, 18, 82);
+}
+.col-md-4{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.col-md-4 img{
+    width: 150px;
+     height: 150px;
+     margin-left: 10px;
+}
+.col-md-8{
+    padding: 10px;
+}
+.card-body{
+  text-align: left;
+    background-color: #ffc10747;
+    box-shadow:2px 2px orange;
+     width: 100%;
+     height: 300px;
+}
+#card-textIdpara{
+    white-space: nowrap;
+    overflow: hidden;
+     text-overflow:ellipsis;
+}
+.text-body-secondary1{
+    height:50px;
+    overflow: scroll;
+    color: rgb(2, 18, 82)
+}
+
+/* Search div */
+.searchclub_option{
+  margin: 60px 0px 30px 0px;
+  width:100%;
+}
+.searchBarClubInput{
+  height:50px;
+  width:50%;
+  border-radius: 50px;
+  text-align: center;   
+}
+.clubSearchBar{
+  display: block; 
+  width:100%; 
+}
+.clubSearchButtonsDiv{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.searchclubbuttons{
+  margin: 0px 5px;
+  height:50px;
+  width:10%;
+  border-radius: 50px;
+  font-weight: bold;
+}
+#searchClubInputButton{
+background-color: rgb(36, 166, 36);
+color:white;
+}
+#searchClubInputButton:hover{
+  background-color: green
+}
+#searchClubClearButton{
+  background-color: azure;
+}
+#searchClubClearButton:hover{
+  background-color: rgb(182, 250, 250);
+}
+.card_holding_div{
+  display: grid;
+  padding:10px 20px;
+   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 30px;
+    justify-content: "center"
+}
+
+/* Carousel COde */
+.carousel{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height:86vh;
+    /* background-color: #61dafb; */
+  }
+  .carousel_imageDiv{
+    width:95%;
+    margin: 2px;
+    height:85vh;
+    /* background-color: #b4ff40; */
+  }
+  .carousel_imageDiv img{
+    width:100%;
+    height:85vh;
+  }
+  .carousel_Button button{
+    border: none;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    padding:20px;
+    border-radius: 100%;
+    background-color: rgba(255,255,255,0.5);
+  }
+  .OuterhomePageHeaderDiv{
+    display: flex;
+    color:rgb(61, 32, 118);
+    text-align: center;
+    justify-content: center;
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading img{
+    width:30px;
+    height:30px;
+    margin: 20px;
+  }
+  .subheading{
+    display: block;
+    text-align: center;
+  }
+  .card-title{
+    text-align: left;
+  }
+.takeInsightButtonDiv{
+  display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn.btn-info{
+  color:white;
+  font-weight: bold;
+  font-size: large;
+  box-shadow: 1px 1px rgba(255,255,255,0.5);
+}
+.hrDiv{
+  width:100%;
+  justify-content: center;
+  display: flex;
+}
+.showallclubdetailshrwidth{
+  width:90%;
+}
+ 
+@media screen and (min-width:400px) and (max-width:630px){
+    .clubSearchBar{
+      display: block;
+      width:100%;
+    }
+    .searchBarClubInput{
+      height:50px;
+      width:90%;
+      border-radius: 50px;
+      text-align: center;   
+    }
+    .clubSearchButtonsDiv{
+      display: block;
+      width:100%;
+      margin-top: 20px;
+    }
+    #searchClubInputButton{
+      background-color: rgb(36, 166, 36);
+      color:white;
+      width:40%;
+      }
+      #searchClubClearButton{
+        background-color: azure;
+        width:40%;
+      }
+
+      .heading img{
+        width:25px;
+        height:25px;
+        margin: 20px;
+      }
+      
+      .carousel{
+        padding:10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        height:40vh;
+        
+      }
+      .carousel_imageDiv{
+        width:95%;
+        margin: 2px;
+        height:39vh;
+      
+      }
+      .carousel_imageDiv img{
+        width:100%;
+        height:39vh;
+      }
+      .card_holding_div {
+        display: grid;
+        padding: 10px 5px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 30px;
+        justify-content: "center";
+      }
+
+ } 
+@media screen and (min-width:330px) and (max-width:400px){
+  .carousel{
+    display: none;
+  }
+  .alert.alert-success.alert-dismissible.fade.show{
+    display: none;
+}
+.card_holding_div {
+  display: grid;
+  padding: 10px 0px;
+  grid-template-columns: repeat(auto-fill, minmax(412px, 1fr));
+  gap: 30px;
+  justify-content: "center";
+}
+.clubSearchBar{
+  display: block;
+  width:100%;
+}
+.searchBarClubInput{
+  height:50px;
+  width:90%;
+  border-radius: 50px;
+  text-align: center;   
+}
+.clubSearchButtonsDiv{
+  display: block;
+  width:100%;
+  margin-top: 20px;
+}
+#searchClubInputButton{
+  background-color: rgb(36, 166, 36);
+  color:white;
+  width:40%;
+  }
+  #searchClubClearButton{
+    background-color: azure;
+    width:40%;
+  }
+  .outer_container{
+    width:115%;
+    background-color: white;
+  }
+  .heading img{
+    width:25px;
+    height:25px;
+    margin: 20px;
+  }
+
+}
+@media screen and (min-width:250px) and (max-width:330px){
+  .carousel{
+    display: none;
+  }
+  .alert.alert-success.alert-dismissible.fade.show{
+    display: none;
+}
+  .outer_container{
+    width:145%;
+  }
+  .clubSearchBar{
+    display: block;
+    width:100%;
+  }
+  .searchBarClubInput{
+    height:50px;
+    width:90%;
+    border-radius: 50px;
+    text-align: center;   
+  }
+  .clubSearchButtonsDiv{
+    display: block;
+    width:100%;
+    margin-top: 20px;
+  }
+  #searchClubInputButton{
+    background-color: rgb(36, 166, 36);
+    color:white;
+    width:40%;
+    }
+    #searchClubClearButton{
+      background-color: azure;
+      width:40%;
+    }
+    .heading img{
+      width:30px;
+      height:30px;
+      margin: 20px;
+    }
+    .card_holding_div {
+      display: grid;
+      padding: 10px 0px;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 30px;
+      justify-content: "center";
+  }
+}
+
+@media screen and (min-width:190px) and (max-width:250px){
+  .carousel{
+    display: none;
+  }
+  .alert.alert-success.alert-dismissible.fade.show{
+    display: none;
+}
+  .outer_container{
+    width:150%;
+  }
+  .clubSearchBar{
+    display: block;
+    width:100%;
+  }
+  .searchBarClubInput{
+    height:50px;
+    width:90%;
+    border-radius: 50px;
+    text-align: center;   
+  }
+  .clubSearchButtonsDiv{
+    display: block;
+    width:100%;
+    margin-top: 20px;
+  }
+  #searchClubInputButton{
+    background-color: rgb(36, 166, 36);
+    color:white;
+    width:40%;
+    }
+    #searchClubClearButton{
+      background-color: azure;
+      width:40%;
+    }
+    .heading img{
+      width:30px;
+      height:30px;
+      margin: 20px;
+    }
+    .card_holding_div {
+      display: grid;
+      padding: 10px 0px;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+      justify-content: "center";
+  }
+
+}
+
+@media screen and (min-width:0px) and (max-width:190px){
+  .carousel{
+    display: none;
+  }
+  .alert.alert-success.alert-dismissible.fade.show{
+    display: none;
+}
+  .outer_container{
+    width:150%;
+  }
+  .clubSearchBar{
+    display: block;
+    width:100%;
+  }
+  .searchBarClubInput{
+    height:50px;
+    width:100%;
+    border-radius: 50px;
+    text-align: center;   
+  }
+  .clubSearchButtonsDiv{
+    display: block;
+    width:100%;
+    margin-top: 20px;
+  }
+  #searchClubInputButton{
+    background-color: rgb(36, 166, 36);
+    color:white;
+    width:40%;
+    }
+    #searchClubClearButton{
+      background-color: azure;
+      width:40%;
+    }
+    .heading img{
+      width:30px;
+      height:30px;
+      margin: 20px;
+    }
+    .card_holding_div {
+      display: grid;
+      padding: 10px 0px;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 30px;
+      justify-content: "center";
+  }
+
+} 

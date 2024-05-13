@@ -1,0 +1,427 @@
+.signup-outer-div {
+  background-image: url(../assets/background_img1.jpg);
+  background-size: cover;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.outerFormDivBlock {
+  width: 100%;
+  display: flex;
+}
+
+.dropdownUsers {
+  width: 100%;
+  height: 30px;
+}
+
+#outerCommonDiv1 {
+  width: 30%;
+}
+
+#outerCommonDiv2 {
+  width: 60%;
+}
+
+.form_div {
+  width: 70%;
+  height: 90%;
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.form_div h1 {
+  font-weight: bold;
+  color: white;
+}
+
+#password1 {
+  margin: 5px 0px;
+}
+
+#dropdownHoldingDiv {
+  display: block;
+  justify-content: left;
+}
+
+.image_div img {
+  height: 160px;
+  width: 150px;
+}
+
+.form_div form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_div {
+  padding: 40px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.radioClass {
+  margin: 10px;
+}
+
+.inputs {
+  margin: 20px;
+  width: 50%;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inner_div_form1 {
+  width: 100%;
+}
+
+.inner_div_form1 .inputs label {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.inner_div_form1 .inputs input {
+  width: 100%;
+}
+
+.inner_div_form1 .inputs button {
+  background-color: rgb(103, 8, 191);
+  color: white;
+  width: 100%;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#signupDivId {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+
+.inputs button:hover {
+  background-color: green;
+}
+
+@media screen and (min-width:1000px) and (max-width:1300px) {
+  .signup-outer-div {
+    height: auto;
+  }
+}
+
+@media screen and (min-width:590px) and (max-width:1000px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width:450px) and (max-width:590px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+}
+
+@media screen and (min-width:400px) and (max-width:450px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+  .outerFormDivBlock {
+    width: 100%;
+    display: block;
+}
+.inputs {
+  width: 85%;
+  padding-left: 20px;
+}
+}
+
+@media screen and (min-width:350px) and (max-width:400px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+  .outerFormDivBlock {
+    width: 100%;
+    display: block;
+}
+.inputs {
+  width: 85%;
+  padding-left: 20px;
+}
+.signup-outer-div {
+  height: auto;
+  width: 115%;
+}
+}
+
+@media screen and (min-width:330px) and (max-width:350px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+  .outerFormDivBlock {
+    width: 100%;
+    display: block;
+}
+.inputs {
+  width: 85%;
+  padding-left: 20px;
+}
+.signup-outer-div {
+  height: auto;
+  width: 125%;
+}
+}
+
+@media screen and (min-width:290px) and (max-width:330px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+  .outerFormDivBlock {
+    width: 100%;
+    display: block;
+}
+.inputs {
+  width: 85%;
+  padding-left: 20px;
+}
+.signup-outer-div
+ {
+  margin-left:7px;
+  height: auto;
+  width: 135%;
+}
+}
+
+@media screen and (min-width:200px) and (max-width:290px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+  .outerFormDivBlock {
+    width: 100%;
+    display: block;
+}
+.inputs {
+  width: 85%;
+  padding-left: 20px;
+}
+.signup-outer-div
+ {
+  margin-left:7px;
+  height: auto;
+  width: 145%;
+}
+}
+
+@media screen and (min-width:100px) and (max-width:200px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+  .outerFormDivBlock {
+    width: 100%;
+    display: block;
+}
+.inputs {
+  width: 85%;
+  padding-left: 0px;
+}
+.signup-outer-div
+ {
+  margin-left:7px;
+  height: auto;
+  width: 145%;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:100px) {
+  .signup-outer-div {
+    height: auto;
+  }
+
+  .form_div {
+    display: block;
+    border-radius: 0px;
+    width: 100%;
+  }
+
+  #outerCommonDiv1,
+  #outerCommonDiv2 {
+    width: 100%;
+  }
+
+  #SignupDivId {
+    width: 90%;
+  }
+
+  .inner_div_form1 .inputs button {
+    margin-top: 0px;
+    width: auto;
+  }
+  .outerFormDivBlock {
+    width: 100%;
+    display: block;
+}
+.inputs {
+  width: 85%;
+  padding-left: 0px;
+}
+.signup-outer-div
+ {
+  height: auto;
+  width: 180%;
+}
+.inner_div_form1 .inputs button {
+  padding: 5px 5px;
+  
+}
+}

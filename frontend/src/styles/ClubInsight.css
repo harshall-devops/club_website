@@ -1,0 +1,281 @@
+.insightInnerContainer{
+    padding:20px;
+    margin-top:-16px;
+  }
+  
+  .insightheaderDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    border:1px solid yellow;
+    background-color: bisque;
+    box-shadow: 3px 3px orange;
+    margin-bottom: 20px;
+  }
+  .establishDateDiv{
+    color: indigo;
+    display: flex;
+    align-items: center;
+    font-size: large;
+  }
+  .insightInnerHoldingDiv{
+    display: flex;
+    align-items:center;
+  }
+  .insightInnerHoldingDiv img{
+    margin:10px;
+    width:70px;
+    height:70px;
+  }
+  .insightInnerHoldingDiv h1{
+    color:indigo;
+  }
+  .insightInner_div2{
+      display: flex;
+      justify-content: center;
+  }
+  .insightContentHoldingDiv{
+    width:100%;
+    padding:15px;
+    margin-left:10px;
+  }
+  #insightContentHoldingDivID1{
+    background-color: antiquewhite;
+   border: 3px solid orange;
+   
+  }
+  #insightContentHoldingDivID2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .back_button_div{
+    position: relative;
+    margin-top: 20px;
+  }
+  .insightLogoHoldingDiv img{
+    height:350px
+  }
+  .insightIdHoldingDiv{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .insightIdHoldingDiv h2{
+     border-bottom: 2px solid orange; 
+     background-color: antiquewhite; 
+    padding:5px;
+    color:indigo;
+    text-shadow: 1px 1px purple;
+    margin:30px;
+  }
+  .clubnameDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .accordian_images_achievement{
+    display: flex;
+    justify-content: center;
+  }
+
+  .accordian_images_event{
+    display: flex;
+    justify-content: center;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 30px;
+}
+ .eventTitle{
+  color:indigo;
+  font-weight: bold;
+ }
+ .eventDescription{
+  color:indigo;
+  font-size: large;
+ }
+
+ .achievementTitle{
+  color:indigo;
+  font-weight: bold;
+ }
+ .achievementDescription{
+  color:indigo;
+  font-size: large;
+ }
+  .image-grid img {
+    width: 90%;
+     height:300px;
+}
+  .insightInnerContainer h1{
+    color:indigo;
+  }
+  .exploreHeading{
+    margin-top: 30px;
+  }
+  .members_club{
+    display: flex;
+    justify-content: center;
+  }
+.members_club  table {
+    width: 50%;
+    text-align: center;
+}
+
+.clubInsightTh, .clubInsightTd {
+    border: 1px solid #dddddd;
+    padding: 18px;
+}
+
+.clubInsightTh {
+    background-color: #f2f2f2;
+}
+.clubInsightTh :nth-child(1),td:nth-child(1){
+  width:200px;
+}
+.members_club table tr td img{
+    width:180px;
+    height:200px;
+  }
+@media screen and (min-width:600px) and (max-width:1000px){
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Three columns */
+    gap: 50px;
+    justify-items: center; /* Centers items horizontally */
+  align-items: center;
+}
+} 
+@media screen and (min-width:400px) and (max-width:600px){
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+    justify-items: center; /* Centers items horizontally */
+  align-items: center;
+}
+.members_club table tr td img {
+  width: 100px;
+  height: 100px;
+}
+.clubInsightTh, .clubInsightTd {
+  padding: 5px;
+}
+} 
+@media screen and (min-width:350px) and (max-width:400px){
+  .clubInsightOuterDiv{
+    background-color: white;
+    /* margin-left: 30px; */
+    width:105%;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+}
+.members_club table tr td img {
+  width: 100px;
+  height: 100px;
+}
+.clubInsightTh, .clubInsightTd {
+  padding: 5px;
+}
+} 
+@media screen and (min-width:320px) and (max-width:350px){
+  .clubInsightOuterDiv{
+    background-color: white;
+    width:110%;
+    margin-left: 20px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+}
+.members_club table tr td img {
+  width: 100px;
+  height: 100px;
+}
+.clubInsightTh, .clubInsightTd {
+  padding: 5px;
+}
+} 
+@media screen and (min-width:290px) and (max-width:320px){
+  .clubInsightOuterDiv{
+    background-color: white;
+    width:115%;
+    margin-left: 35px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+    justify-items: center; /* Centers items horizontally */
+  align-items: center;
+}
+.members_club table tr td img {
+  width: 100px;
+  height: 100px;
+}
+.clubInsightTh, .clubInsightTd {
+  padding: 5px;
+}
+} 
+@media screen and (min-width:210px) and (max-width:290px){
+  .clubInsightOuterDiv{
+    background-color: white;
+    width:125%;
+    margin-left: 20px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+    justify-items: center; /* Centers items horizontally */
+  align-items: center;
+}
+.members_club table tr td img {
+  width: 50px;
+  height: 50px;
+}
+.clubInsightTh, .clubInsightTd {
+  padding: 0px;
+}
+} 
+@media screen and (min-width:190px) and (max-width:210px){
+  .clubInsightOuterDiv{
+    background-color: white;
+    width:150%;
+    margin-left: 10px;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+    justify-items: center; /* Centers items horizontally */
+  align-items: center;
+}
+.members_club table tr td img {
+  width: 50px;
+  height: 50px;
+}
+.clubInsightTh, .clubInsightTd {
+  padding: 0px;
+}
+} 
+@media screen and (min-width:0px) and (max-width:190px){
+  .clubInsightOuterDiv{
+    background-color: white;
+    width:180%;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Three columns */
+    justify-items: center; /* Centers items horizontally */
+  align-items: center;
+}
+.members_club table tr td img {
+  width: 50px;
+  height: 50px;
+}
+.clubInsightTh, .clubInsightTd {
+  padding: 0px;
+}
+} 
