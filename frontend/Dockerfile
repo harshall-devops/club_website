@@ -15,7 +15,7 @@ COPY ./public ./public/
 COPY ./src ./src/
 
 # Expose the port on which the frontend will run (if needed)
-# EXPOSE 3000
+EXPOSE 3000
 
 # Command to start the frontend server
 CMD ["npm", "start"]
